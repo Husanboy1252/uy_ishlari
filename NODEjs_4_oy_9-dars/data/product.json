@@ -1,0 +1,23 @@
+[
+    {
+        "id": "9fcb94a5-61a1-4aba-83e4-4f727749d50b",
+        "title": "hot_dog",
+        "price": "20,000 ",
+        "description": "mazaliy",
+        "time": "15:8"
+    },
+    {
+        "id": "8c29d8e2-e06c-43d3-b9fd-6a7ffd447833",
+        "title": "lavash",
+        "price": "2500",
+        "description": "mazaliy",
+        "time": "15:14"
+    },
+    {
+        "id": "f93077e3-0fd4-4681-afda-97de61a3fa58",
+        "title": "burger",
+        "price": "45,000",
+        "description": "totliyv va mazzaliy",
+        "time": "15:16"
+    }
+]
