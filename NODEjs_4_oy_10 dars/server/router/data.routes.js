@@ -1,0 +1,14 @@
+const{Router} = require("express")
+const { get_All_data, get_one_data, add_Data, update_data, delete_data } = require("../controller/data.controller")
+
+
+const dataRouter=Router()
+
+dataRouter.get("/get_All_data",get_All_data)
+dataRouter.get("/get_one_data/:id", get_one_data)
+dataRouter.post("/add_data",add_Data)
+dataRouter.put("/update_data",update_data)
+dataRouter.delete("/delete_data",delete_data)
+
+
+module.exports= dataRouter
