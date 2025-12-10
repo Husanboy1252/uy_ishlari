@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(56, 50, 50);
+}
+
+.glabal-objekt {
+  background-color: rgb(31, 206, 229);
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register-login {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: white;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  height: 55px;
+  gap: 5px;
+}
+.btn-register {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: rgb(31, 206, 229);
+  font-size: 25px;
+  border: 0;
+}
+.person-name {
+  width: 370px;
+  height: 50px;
+  color: white;
+  background-color: rgb(31, 206, 229);
+  font-size: 25px;
+  border: 0;
+  text-align: center;
+  padding-top: 10px;
+}
+.btn-login {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: rgb(31, 206, 229);
+  font-size: 25px;
+  border: 0;
+}
+.btn-reg-log-sender {
+  width: 100%;
+  color: white;
+  background-color: rgb(31, 206, 229);
+  font-size: 25px;
+  text-align: center;
+}
+.todo-list-h1 {
+  margin: 15px;
+}
+.body-item {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: white;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-body {
+  width: 90%;
+  height: 55px;
+  display: flex;
+  gap: 5px;
+}
+.btn-reset-todo-list {
+    color: white;
+  background-color: rgb(31, 206, 229);
+  width: 70px;
+  font-size: 25px;
+  border: 0;
+  margin-right: 10px;
+}
+.input-new-input {
+  font-size: 25px;
+  width: 550px;
+  border: 2px solid rgb(31, 206, 229);
+  text-align: center;
+}
+.btn-new-input {
+  color: white;
+  background-color: rgb(31, 206, 229);
+  width: 55px;
+  font-size: 25px;
+  border: 0;
+}
+.bottom-chekit-input-edit-delete {
+  width: 90%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(31, 206, 229, 0.1);
+  margin: 10px;
+}
+.input-output-windov {
+  height: 30px;
+  display: flex;
+}
+.checkbox-input {
+  margin: 10px;
+  width: 25px;
+  height: 25px;
+}
+.input-output-windov {
+  width: 550px;
+  border: 0;
+  font-size: 25px;
+  text-align: center;
+}
+.btn-edit {
+  margin: 10px;
+  width: 36px;
+  height: 36px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(31, 206, 229, 0.1);
+  border: 0;
+}
+.btn-delete {
+  margin-left: 15px;
+  width: 25px;
+  height: 25px;
+  font-size: 35px;
+  color: rgb(117, 113, 107);
+  background-color: rgb(31, 206, 229, 0.1);
+  display: flex;
+  align-items: center;
+  border: 0;
+}
+.output-remove-cheket {
+  width: 90%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  gap: 93px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.output-cheket {
+  border: 2px solid rgb(31, 206, 229);
+  width: 300px;
+  height: 55px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+.remove-cheket {
+  background-color: rgb(31, 206, 229);
+  border: 0;
+  width: 300px;
+  height: 55px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.bar-input {
+   margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: white;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  height: 85px;
+  gap: 5px;
+}
+.input-bar {
+width: 200px;
+  height: 50px;
+  color: white;
+  background-color: rgb(31, 206, 229);
+  font-size: 25px;
+  border: 0;
+  text-align: center;
+}
+.input-bar-email {
+  width: 370px;
+  height: 50px;
+  color: white;
+  background-color: rgb(31, 206, 229);
+  font-size: 25px;
+  border: 0;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 15px;
+}
